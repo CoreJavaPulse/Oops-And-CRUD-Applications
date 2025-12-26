@@ -5,6 +5,21 @@ public class Product {
 	private String productname;
 	private double productprice;
 	private int productquantity;
+
+	//default constructor
+	public Product()
+	{
+
+	}
+	//parametric constructor
+	public Product(int productId, String productname, double productprice, int productquantity) {
+		super();
+		this.productId = productId;
+		this.productname = productname;
+		this.productprice = productprice;
+		this.productquantity = productquantity;
+	}
+
 	public int getProductId() {
 		return productId;
 	}
@@ -29,5 +44,4 @@ public class Product {
 	public void setProductquantity(int productquantity) {
 		this.productquantity = productquantity;
 	}
-	
 }
