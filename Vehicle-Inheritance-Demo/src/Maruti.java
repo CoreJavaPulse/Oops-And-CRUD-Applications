@@ -18,5 +18,11 @@ public class Maruti implements AutoMobile{
 		// TODO Auto-generated method stub
 		return "red";
 	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return getModel()+"\t"+getColor()+"\t"+getPrice()+"\t";
+	}
 
 }

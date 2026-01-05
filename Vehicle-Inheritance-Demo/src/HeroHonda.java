@@ -25,4 +25,9 @@ public class HeroHonda implements Bike,AutoMobile {
 		return 150;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return getModel()+"\t"+getColor()+"\t"+getPrice()+"\t\t"+getcc()+"\t";
+	}
 }

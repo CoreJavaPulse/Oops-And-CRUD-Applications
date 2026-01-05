@@ -35,8 +35,8 @@ public class AutoMobileMain {
 					int ch2 = sc.nextInt();
 					if (ch2 == 1) display("Hero Honda", new HeroHonda());
 					else if (ch2 == 2) {
-						// TODO: display("Tvs", new Tvs());
-						System.out.println("Tvs selected (implement class).");
+						display("Tvs", new TVS());
+						//System.out.println("Tvs selected (implement class).");
 					}
 					System.out.println("Continue in Bike Menu? (yes/no)");
 					bikeContinue = sc.next();
@@ -46,6 +46,7 @@ public class AutoMobileMain {
 			System.out.println("Continue Overall? (yes/no)");
 			overallContinue = sc.next();
 		} while (overallContinue.equalsIgnoreCase("yes"));
+		System.out.println("-----------------------Thank You------------------");
 		sc.close();
 	}
 
@@ -53,12 +54,13 @@ public class AutoMobileMain {
 	public static void display(String str,AutoMobile a)
 	{
 		System.out.println("---------------------------------------------------------");
-		System.out.println(str+" Model :"+a.getModel());
-		System.out.println(str+" Color :"+a.getColor());
-		System.out.println(str+" Price :"+a.getPrice());
-		if(a instanceof Bike) {
-			Bike b = (Bike) a;
-			System.out.println(str+" CC :"+b.getcc());
-		}
+		System.out.println(a);
+//		System.out.println(str+" Model :"+a.getModel());
+//		System.out.println(str+" Color :"+a.getColor());
+//		System.out.println(str+" Price :"+a.getPrice());
+//		if(a instanceof Bike) {
+//			Bike b = (Bike) a;
+//			System.out.println(str+" CC :"+b.getcc());
+//		}
 	}
 }

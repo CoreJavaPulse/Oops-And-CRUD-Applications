@@ -19,4 +19,9 @@ public class Toyota implements AutoMobile {
 		return "Black";
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return getModel()+"\t"+getColor()+"\t"+getPrice()+"\t";
+	}
 }
