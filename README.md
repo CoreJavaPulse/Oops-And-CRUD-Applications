@@ -16,6 +16,7 @@
 | 8 | **AutoMobile Showroom** | Multiple Interface Inheritance, Nested Menus | `AutoMobileMain` |
 | 9 | **Rectangle Shape Interface** | Interface Implementation, Method Overriding | `ShapeMain` |
 | 10| **Inheritance Hierarchy** | Multi-level Inheritance, super keyword | `EmployeeMain` |
+| 11| **Exception Examples** | try/catch,throw,throws, finally keyword | `Example1` |
 
 ## 🎯 Mastered Java OOP Concepts (All Projects)
 ```text
