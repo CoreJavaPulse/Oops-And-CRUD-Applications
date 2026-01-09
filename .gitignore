@@ -13,6 +13,10 @@ target/
 .metadata/
 bin/
 *.class
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5fcb8d4e0da7a8d43b9d1d7072c11a552966382e
 *.launch
 .loadpath
 .recommenders/
