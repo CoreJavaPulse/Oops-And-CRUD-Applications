@@ -1,38 +1,15 @@
-# Compiled Java classes and archives
-*.class
-*.jar
-*.war
-*.ear
-bin/
-target/
-
-# Eclipse
+# Eclipse artifacts
 **/.settings/
 **/.classpath
 **/.project
+**/.metadata/
 **/bin/
+**/target/
+
+# Compiled classes
 **/*.class
+**/*.jar
 
-# Logs/Temp
-*.log
-.DS_Store
-
-*.class
-<<<<<<< HEAD
-=======
-
->>>>>>> 5fcb8d4e0da7a8d43b9d1d7072c11a552966382e
-*.launch
-.loadpath
-.recommenders/
-
-# Temp files
-*.tmp
-*.bak
-*.swp
-*~
-tmp/
-
-# OS generated files
+# OS/IDE temp
 .DS_Store
 Thumbs.db
