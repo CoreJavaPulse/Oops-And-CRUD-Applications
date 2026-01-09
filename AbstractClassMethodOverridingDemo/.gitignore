@@ -1,1 +1,6 @@
-/bin/
+echo .classpath > .gitignore
+echo .project >> .gitignore
+echo .settings/ >> .gitignore
+echo bin/ >> .gitignore
+echo *.class >> .gitignore
+echo target/ >> .gitignore
